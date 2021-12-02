@@ -14,7 +14,7 @@ class Reference
 		gameHeight: 0,
 		initialState: State_MainMenu,
 		zoom: 1,
-		framerate: 360,
+		framerate: 244,
 		skipSplash: true,
 		startFullscreen: true
 	};

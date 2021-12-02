@@ -1,5 +1,7 @@
 package version;
 
+using StringTools;
+
 class Version
 {
 	public static function mmp(major:Int, minor:Int, patch:Int):String
@@ -7,7 +9,7 @@ class Version
 		return major + "." + minor + "." + patch;
 	}
 
-	public static function mmby(major:Int, minor:Int, build:Int, update:Int):String
+	public static function mmbu(major:Int, minor:Int, build:Int, update:Int):String
 	{
 		return major + "." + minor + "." + build + "." + update;
 	}
